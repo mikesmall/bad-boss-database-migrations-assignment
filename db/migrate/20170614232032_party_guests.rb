@@ -9,10 +9,7 @@ class PartyGuests < ActiveRecord::Migration[5.0]
       t.text :vulnerabilities
       t.text :illnesses
       t.text :medication
-      t.text :voting preferences
+      t.text :voting_preferences
     end#do
   end#def
-end#class 
-
-
-#  first name - last name - dietary restrictions - salary - number of kids - vulnerabilities - illnesses - medication - voting preferences
+end#class
