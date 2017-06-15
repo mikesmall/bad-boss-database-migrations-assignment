@@ -1,6 +1,6 @@
 class AddCodeToPartyGuests < ActiveRecord::Migration[5.0]
   def change
-    change_table :party_guests do |t|
+    create_table :party_guests do |t|
       t.string :first_name
       t.string :last_name
       t.text :dietary_restrictions
